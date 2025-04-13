@@ -1,0 +1,16 @@
+# --- 配置 ---
+# 将你的存档文件路径放在这里
+# 注意：Windows 路径中的反斜杠需要转义 (\\) 或使用正斜杠 (/)
+DEFAULT_SAVE_FILE_PATH = r"C:\Users\用户名\AppData\LocalLow\DoubleCross\SultansGame\SAVEDATA\一串数字\auto_save.json"
+
+# 预定义的核心属性 (即使tag中不存在也会显示出来让用户设置)
+CORE_ATTRIBUTES = [
+    "physique",
+    "charm",
+    "wisdom",
+    "social",
+    "battle",
+    "conceal",
+    "survival",
+    "magic",
+]
