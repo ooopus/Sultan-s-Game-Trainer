@@ -13,18 +13,16 @@
 ### 环境要求
 
 - Python 3.x
-- PyQt6
 
 ### 安装步骤
 
-1. 克隆或下载本项目到本地
-2. 安装依赖：
    ```bash
+   git clone https://github.com/ooopus/Sultan-s-Game-Trainer
+   cd Sultan-s-Game-Trainer
+   python -m venv venv
+   # source venv/bin/activate  # Linux/Mac
+   # venv\Scripts\activate  # Windows
    pip install PyQt6
-   ```
-3. 复制 `config.py.example` 为 `config.py`，并按照说明修改配置
-4. 运行程序：
-   ```bash
    python main.py
    ```
 
